@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffc107;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+/* Section Styles */
+section {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Prediction Button Styling */
+.btn-prediction {
+    background-color: rgb(248, 131, 121);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-prediction:hover {
+    background-color: rgb(220, 20, 60);
+    transform: scale(1.05);
+}
+
+.btn-prediction:focus {
+    outline: none;
+}
+
+/* Login/SignUp Form Styles */
+.form-container {
+    background: #fff;
+    color: black;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: skyblue;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    padding: 10px 0;
+    color: #555;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .btn-prediction {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
+    .social-icons a {
+        font-size: 28px;
+        margin: 0 15px;
+    }
+
+    .form-container {
+        padding: 25px;
+    }
+}

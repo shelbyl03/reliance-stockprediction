@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stock Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="/static/indexstyle.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Stock Prediction</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#reliance-stock">Reliance Stock</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what-is-stock">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="predict">Prediction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Welcome to Stock Prediction</h1>
+      
+      <section id="reliance-stock" class="mb-5">
+        <h2>Reliance Stock</h2>
+        <p>Reliance Industries is one of the largest companies in India, and its stock plays a significant role in the financial market. Tracking its performance is crucial for investors.</p>
+      </section>
+
+      <section id="what-is-stock" class="mb-5">
+        <h2>What is Stock?</h2>
+        <p>A stock represents ownership in a company and constitutes a claim on part of the company’s assets and earnings. Investors buy stocks to potentially gain profits from the company’s growth and dividends. The stock market allows individuals and institutions to trade shares of publicly-listed companies. Understanding stocks is essential for making informed investment decisions and participating in the growth of businesses.</p>
+      </section>
+
+      <!-- Prediction Section -->
+      <section id="prediction" class="text-center">
+        <h2>Make a Prediction</h2>
+        <a href="predict" class="btn btn-prediction mt-3">Make a Prediction</a>
+      </section>
+
+      <!-- Login/Sign Up Section -->
+      <div class="container" id="login-signup">
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#signIn">Sign In</a></li>
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#signUp">Sign Up</a></li>
+        </ul>
+
+        <div class="tab-content mt-3">
+          <div class="tab-pane fade show active" id="signIn">
+            <div class="form-container">
+              <h2 class="title">Sign In</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="email" placeholder="Email" required>
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+              </div>
+              <button class="btn btn-primary">Login</button>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="signUp">
+            <div class="form-container">
+              <h2 class="title">Sign Up</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" required>
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" required>
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+              </div>
+              <button class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><strong>Email:</strong> contact@thyroidpredictions.com</li>
+            <li><strong>Phone:</strong> +91-123-456-7890</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2024 Stock Prediction. All rights reserved. <br>
+      <strong>Disclaimer:</strong> The stock price predictions provided on this site are based on historical data and statistical models. These predictions are for informational purposes only and may not accurately reflect real-time market conditions. Always conduct your own research or consult with a financial advisor before making any investment decisions.</p>
+      <p><a href="/">Privacy Policy</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
